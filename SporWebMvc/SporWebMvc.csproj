@@ -155,6 +155,7 @@
     <Compile Include="App_Start\RouteConfig.cs" />
     <Compile Include="Controllers\EtkinlikController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
+    <Compile Include="Controllers\MekansController.cs" />
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
@@ -212,6 +213,11 @@
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
     <Content Include="Views\Etkinlik\Index.cshtml" />
+    <Content Include="Views\Mekans\Create.cshtml" />
+    <Content Include="Views\Mekans\Delete.cshtml" />
+    <Content Include="Views\Mekans\Details.cshtml" />
+    <Content Include="Views\Mekans\Edit.cshtml" />
+    <Content Include="Views\Mekans\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

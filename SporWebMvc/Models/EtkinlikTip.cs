@@ -19,6 +19,6 @@ namespace SporWebMvc.Models
         [DisplayName("Aciklama")]
         public string Aciklama { get; set; }
 
-        public int MyProperty { get; set; }
+        
     }
 }
