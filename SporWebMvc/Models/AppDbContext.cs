@@ -23,5 +23,14 @@ namespace SporWebMvc.Models
         public DbSet<KullaniciSpor> KullaniciSporlar { get; set; }
         public DbSet<Sporlar> Sporlar { get; set; }
         public DbSet<Mekan> Mekanlar { get; set; }
+
+
+
+        protected override void OnModelCreating(DbModelBuilder modelBuilder)
+        {
+            modelBuilder.Entity
+        }
     }
+
+    
 }

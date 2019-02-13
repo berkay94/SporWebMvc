@@ -153,7 +153,7 @@
     <Compile Include="App_Start\BundleConfig.cs" />
     <Compile Include="App_Start\FilterConfig.cs" />
     <Compile Include="App_Start\RouteConfig.cs" />
-    <Compile Include="Controllers\EtkinlikController.cs" />
+    <Compile Include="Controllers\EtkinliklersController.cs" />
     <Compile Include="Controllers\HomeController.cs" />
     <Compile Include="Controllers\MekansController.cs" />
     <Compile Include="Global.asax.cs">
@@ -162,6 +162,7 @@
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AppDbContext.cs" />
     <Compile Include="Models\BaseEntity.cs" />
+    <Compile Include="Models\EtkinlikGoster.cs" />
     <Compile Include="Models\Etkinlikler.cs" />
     <Compile Include="Models\EtkinlikTip.cs" />
     <Compile Include="Models\HataLoglari.cs" />
@@ -212,12 +213,16 @@
     <Content Include="Views\Home\About.cshtml" />
     <Content Include="Views\Home\Contact.cshtml" />
     <Content Include="Views\Home\Index.cshtml" />
-    <Content Include="Views\Etkinlik\Index.cshtml" />
     <Content Include="Views\Mekans\Create.cshtml" />
     <Content Include="Views\Mekans\Delete.cshtml" />
     <Content Include="Views\Mekans\Details.cshtml" />
     <Content Include="Views\Mekans\Edit.cshtml" />
     <Content Include="Views\Mekans\Index.cshtml" />
+    <Content Include="Views\Etkinliklers\Create.cshtml" />
+    <Content Include="Views\Etkinliklers\Delete.cshtml" />
+    <Content Include="Views\Etkinliklers\Details.cshtml" />
+    <Content Include="Views\Etkinliklers\Edit.cshtml" />
+    <Content Include="Views\Etkinliklers\Index.cshtml" />
   </ItemGroup>
   <ItemGroup>
     <Folder Include="App_Data\" />

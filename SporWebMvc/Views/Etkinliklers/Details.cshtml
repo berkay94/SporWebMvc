@@ -1,0 +1,90 @@
+﻿@model SporWebMvc.Models.Etkinlikler
+
+@{
+    ViewBag.Title = "Details";
+}
+
+<h2>Details</h2>
+
+<div>
+    <h4>Etkinlikler</h4>
+    <hr />
+    <dl class="dl-horizontal">
+        <dt>
+            @Html.DisplayNameFor(model => model.EtkinlikTip.Tip)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EtkinlikTip.Tip)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EtkinlikAdi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EtkinlikAdi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.MekanId)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.MekanId)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.EtkinlikTarihi)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.EtkinlikTarihi)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Kontenjan)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Kontenjan)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.isActive)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.isActive)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.Sid)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.Sid)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.CreateDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.CreateDate)
+        </dd>
+
+        <dt>
+            @Html.DisplayNameFor(model => model.UpdateDate)
+        </dt>
+
+        <dd>
+            @Html.DisplayFor(model => model.UpdateDate)
+        </dd>
+
+    </dl>
+</div>
+<p>
+    @Html.ActionLink("Edit", "Edit", new { id = Model.Id }) |
+    @Html.ActionLink("Back to List", "Index")
+</p>
