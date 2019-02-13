@@ -18,5 +18,7 @@ namespace SporWebMvc.Models
         [StringLength(200)]
         [DisplayName("Aciklama")]
         public string Aciklama { get; set; }
+
+        public int MyProperty { get; set; }
     }
 }
