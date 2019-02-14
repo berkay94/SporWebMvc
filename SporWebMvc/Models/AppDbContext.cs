@@ -26,10 +26,7 @@ namespace SporWebMvc.Models
 
 
 
-        protected override void OnModelCreating(DbModelBuilder modelBuilder)
-        {
-            modelBuilder.Entity
-        }
+       
     }
 
     

@@ -159,6 +159,26 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Migrations\201902140709024_EtkinlikAl.cs" />
+    <Compile Include="Migrations\201902140709024_EtkinlikAl.Designer.cs">
+      <DependentUpon>201902140709024_EtkinlikAl.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902140721270_EtkinlikTarih.cs" />
+    <Compile Include="Migrations\201902140721270_EtkinlikTarih.Designer.cs">
+      <DependentUpon>201902140721270_EtkinlikTarih.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902140853487_IsLoginUser.cs" />
+    <Compile Include="Migrations\201902140853487_IsLoginUser.Designer.cs">
+      <DependentUpon>201902140853487_IsLoginUser.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902140900478_KullaniciSpor.cs" />
+    <Compile Include="Migrations\201902140900478_KullaniciSpor.Designer.cs">
+      <DependentUpon>201902140900478_KullaniciSpor.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Migrations\201902140904549_SonKullanici.cs" />
+    <Compile Include="Migrations\201902140904549_SonKullanici.Designer.cs">
+      <DependentUpon>201902140904549_SonKullanici.cs</DependentUpon>
+    </Compile>
     <Compile Include="Migrations\Configuration.cs" />
     <Compile Include="Models\AppDbContext.cs" />
     <Compile Include="Models\BaseEntity.cs" />
@@ -240,6 +260,23 @@
     <None Include="packages.config" />
     <Content Include="Scripts\jquery-3.3.1.slim.min.map" />
     <Content Include="Scripts\jquery-3.3.1.min.map" />
+  </ItemGroup>
+  <ItemGroup>
+    <EmbeddedResource Include="Migrations\201902140709024_EtkinlikAl.resx">
+      <DependentUpon>201902140709024_EtkinlikAl.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902140721270_EtkinlikTarih.resx">
+      <DependentUpon>201902140721270_EtkinlikTarih.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902140853487_IsLoginUser.resx">
+      <DependentUpon>201902140853487_IsLoginUser.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902140900478_KullaniciSpor.resx">
+      <DependentUpon>201902140900478_KullaniciSpor.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Migrations\201902140904549_SonKullanici.resx">
+      <DependentUpon>201902140904549_SonKullanici.cs</DependentUpon>
+    </EmbeddedResource>
   </ItemGroup>
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
